@@ -2,7 +2,7 @@
 
 <h3>
 Nama    : Akmad Faiz Fildan Nugroho<br>
-NIM     : 32602000103
+NIM     : 32602000103<br><br>
   
 
 ![enemy2](https://user-images.githubusercontent.com/99966525/236740194-3f18e3f5-99ee-4486-b09b-3d7238cc14b4.png)
@@ -11,6 +11,6 @@ NIM     : 32602000103
 ![enemy1](https://user-images.githubusercontent.com/99966525/236740199-2ff0a473-bd75-477a-9633-a476481db7b7.png)
 
   
-
+<br><br>
 https://user-images.githubusercontent.com/99966525/236740237-71ec2aba-9a88-4636-a5b4-112a742cb506.mp4
 
