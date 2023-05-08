@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://4mtv42880nki"]
+
+[ext_resource type="Texture2D" uid="uid://brgvg6aepfn12" path="res://scenes/basic_enemy2/enemy2.png" id="1_1afld"]
+[ext_resource type="Script" path="res://scenes/basic_enemy2/basic_enemy_2.gd" id="1_h7jbe"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i8x3e"]
+radius = 18.0278
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_axgy8"]
+radius = 22.0907
+
+[node name="BasicEnemy2" type="CharacterBody2D" groups=["enemy"]]
+script = ExtResource("1_h7jbe")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(26, 18.5)
+scale = Vector2(0.5625, 0.609375)
+texture = ExtResource("1_1afld")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(26, 17)
+shape = SubResource("CircleShape2D_i8x3e")
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(40, 30)
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-14, -12)
+shape = SubResource("CircleShape2D_axgy8")

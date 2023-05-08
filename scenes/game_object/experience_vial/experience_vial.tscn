@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cbl50i3dnhe2y"]
+
+[ext_resource type="Texture2D" uid="uid://dx7cqndwtaa7q" path="res://assets/environment/tile_0128.png" id="1_dgs1k"]
+[ext_resource type="Script" path="res://scenes/game_object/experience_vial/experience_vial.gd" id="1_lutj7"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6ntg1"]
+
+[node name="ExperienceVial" type="Node2D"]
+script = ExtResource("1_lutj7")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+light_mask = 16
+visibility_layer = 16
+position = Vector2(162, 74)
+shape = SubResource("CircleShape2D_6ntg1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+light_mask = 16
+visibility_layer = 16
+position = Vector2(162, 74)
+texture = ExtResource("1_dgs1k")
