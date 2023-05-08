@@ -1,7 +1,7 @@
 <h1> UTS GAME DEVELOPMENT
 
 <h3>
-Nama    : Akmad Faiz Fildan Nugroho
+Nama    : Akmad Faiz Fildan Nugroho<br>
 NIM     : 32602000103
 
 
